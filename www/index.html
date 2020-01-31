@@ -28,77 +28,101 @@
 
   This is a template for Onsen UI app.
   <ons-page>
-    <ons-toolbar>
-      <div class="center">DRINK PLENTY WATER</div>
-    </ons-toolbar>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button onclick="prev()">
+            <ons-icon icon="md-chevron-left"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">DRINK WATER!</div>
+        <div class="right">
+          <ons-toolbar-button onclick="next()">
+            <ons-icon icon="md-chevron-right"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+      </ons-toolbar>
+    
+      <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+        <ons-carousel-item style="background-color: #085078;">
+          <div style="text-align: center; font-size: 18px; margin-top: 20px; color: #fff;">
+              <ons-page>
+        <ons-list>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 1
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-2"></ons-checkbox>
+            </label>
+            <label for="check-2" class="center">
+              Water glas 2
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 3
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 4
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 5
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 6
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 7
+            </label>
+          </ons-list-item>
+          <ons-list-item tappable>
+            <label class="left">
+              <ons-checkbox input-id="check-1"></ons-checkbox>
+            </label>
+            <label for="check-1" class="center">
+              Water glas 8
+            </label>
+        </ons-list>
+      </ons-page>
+          </div>
+
   
-  <ons-page>
-    <ons-list>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 1
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-2"></ons-checkbox>
-        </label>
-        <label for="check-2" class="center">
-          Water glas 2
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 3
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 4
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 5
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 6
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 7
-        </label>
-      </ons-list-item>
-      <ons-list-item tappable>
-        <label class="left">
-          <ons-checkbox input-id="check-1"></ons-checkbox>
-        </label>
-        <label for="check-1" class="center">
-          Water glas 8
-        </label>
-    </ons-list>
-  </ons-page>
+        </ons-carousel-item>
+        <ons-carousel-item style="background-color: #373B44;">
+          <div style="text-align: LEFT; font-size: 18px; margin-top: 20px; color: #fff;">
+            Drinking Water Helps Maintain the Balance of Body Fluids. Your body is composed of about 60% water. The functions of these bodily fluids include digestion, absorption, circulation, creation of saliva, transportation of nutrients, and maintenance of body temperature.
+          </div>
+        </ons-carousel-item>
+      </ons-carousel>
+    </ons-page>
 
 
 </body>
